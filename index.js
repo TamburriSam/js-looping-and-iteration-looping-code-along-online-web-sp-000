@@ -1,8 +1,8 @@
-function writeCards(names, gift_type) {
+function writeCards(names, occasion) {
 	let cards = []
 	let i = 0;
 	while (i < names.length) {
-		cards.push(`Thank you, ${names[i]}, for the wonderful ${gift_type} gift!`);
+		cards.push(`Thank you, ${names[i]}, for the wonderful ${occasion} gift!`);
 		i++
 	}
 	return cards;
