@@ -5,4 +5,4 @@ function writeCards(guests, event) {
         console.log(`Thank you ${guests[i]}, for the wonderful ${event} gift!`);
     }
     return guests[];
-  }
+  
