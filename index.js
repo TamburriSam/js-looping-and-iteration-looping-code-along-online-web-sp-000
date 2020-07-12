@@ -1,12 +1,12 @@
-const guests = ["Lisa", "Kaitlin", "Jan"];
-
 function writeCards(guests, event) {
-    for (let i = 0; i < guests.length; i++) {
-        console.log(`Thank you ${guests[i]}, for the wonderful ${event} gift!`);
-    }
-    return guests;
+	let cards = []
+	let i = 0;
+	while (i < guests.length) {
+		cards.push(`Thank you, ${names[i]}, for the wonderful ${gift_type} gift!`);
+		i++
+	}
+	return cards;
 }
- guests = new Array();
 
  function countDown(num) {
     while (num > 0) {
