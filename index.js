@@ -7,3 +7,11 @@ function writeCards(guests, event) {
     return guests;
 }
  guests = new Array();
+
+ function countDown(num) {
+    while (num > 0) {
+        console.log(`${num}`);
+        num -= 1;
+    }
+    return num;
+}
