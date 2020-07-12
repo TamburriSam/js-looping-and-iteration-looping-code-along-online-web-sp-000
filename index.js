@@ -1,17 +1,16 @@
-function writeCards(guests, event) {
-	let tycards = []
+function writeCards(names, gift_type) {
+	let cards = []
 	let i = 0;
-	while (i < guests.length) {
-		tycards.push(`Thank you, ${guests[i]}, for the wonderful ${event} gift!`);
+	while (i < names.length) {
+		cards.push(`Thank you, ${names[i]}, for the wonderful ${gift_type} gift!`);
 		i++
 	}
-	return tycards;
+	return cards;
 }
 
- function countDown(number) {
-    while (number > 0) {
-        console.log(`${number}`);
-        number -= 1;
-    }
-    return number;
+function countDown(integer) {
+	while (integer >= 0) {
+		console.log(integer);
+		integer--
+	}
 }
