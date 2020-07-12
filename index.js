@@ -8,10 +8,10 @@ function writeCards(guests, event) {
 	return tycards;
 }
 
- function countDown(num) {
-    while (num > 0) {
-        console.log(`${num}`);
+ function countDown(number) {
+    while (number > 0) {
+        console.log(`${number}`);
         num -= 1;
     }
-    return num;
+    return number;
 }
