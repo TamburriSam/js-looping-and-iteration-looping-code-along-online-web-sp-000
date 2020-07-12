@@ -6,4 +6,4 @@ function writeCards(guests, event) {
     }
     return guests;
 }
- 
+ guests = new Array();
